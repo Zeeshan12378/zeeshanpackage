@@ -1,0 +1,22 @@
+{
+    "name": "zeeshanpackage/hello-words",
+    "description": "Description of your package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zeeshan Mushtaq",
+            "email": "zeeshan.mushtaq@crexed.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "laravel/framework": "^11.0"
+    },
+    "extra": {
+        "laravel":
+        {
+            "providers":
+             [ "LaravelPackage\\HelloWords\\PackageServiceProvider" ]
+        }
+    }
+}
