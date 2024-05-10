@@ -9,12 +9,22 @@
         }
     ],
     "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zeeshan12378\\HelloWords\\": "src"
+        },
+        "files": [
+            "src/hello.php",
+            "src/routes.php"
+        ]
     },
     "extra": {
         "laravel":
         {
             "providers":
-             [ "LaravelPackage\\HelloWords\\PackageServiceProvider" ]
+             [ "Zeeshan12378\\HelloWords\\PackageServiceProvider" ]
         }
     }
 }
